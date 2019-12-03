@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Voting Info</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="voter-info">
+        <h1>Voter Information</h1>
+        <h3>Please enter your information below and you will be directed to the correct page.</h3>
+        <form id="voter-info-form">
+          <label for="age">Age</label>
+           <input id="age" type="text">
+           <label for="gender">Gender</label>
+           <select id="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="transgender">Transgender</option>
+              <option value="non-binary">Non Binary</option>
+              <option value="binary">Binary</option>
+              <option value="furry">Furry</option>
+          </select>
+              <button type="submit" class="btn btn-primary btn-sm">Submit Info</button>
+
+        </form>
+              <input class="btn btn-primary" type="reset" value="Reset">
+      </div>
+
+      <div id="voting-age">
+        <h1>Voting Information</h1>
+
+        <h2>How to Register to Vote</h2>
+        <ul>
+          <li> <a href="https://www.usa.gov/register-to-vote">US Gov Website</a> </li>
+          <li> <a href="https://sos.oregon.gov/voting/Pages/registration.aspx?lang=en">Oregon Website</a> </li>
+        </ul>
+
+        <h2>Polling Locations</h2>
+        <ul>
+          <li>Your Mom's House</li>
+          <li>Local Library</li>
+          <li>The Neighbor's Creepy Basement</li>
+        </ul>
+
+      <h2>Upcoming Elections</h2>
+      <ul>
+        <li>2020 Presidential ELection</li>
+        <li>Local City Council</li>
+        <li>Right to Party</li>
+      </ul>
+    </div>
+
+      <div id="minors">
+        <h1>Sorry, you are too young to vote sucka!</h1>
+
+        <p>If you want to vote in one of these elections you should have been born earlier</p>
+      </div>
+    </div>
+  </body>
+</html>

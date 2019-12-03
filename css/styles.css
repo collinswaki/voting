@@ -1,0 +1,6 @@
+#voting-age, #minors {
+    display: none;
+}
+.btn {
+  display: inline-block
+}
